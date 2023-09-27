@@ -1,0 +1,23 @@
+.notes-card-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-wrapper,
+.instance-parent,
+.note-inner1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  padding: var(--padding-5xs);
+}
+.note-inner1 {
+  position: absolute;
+  top: 497px;
+  left: 371px;
+}

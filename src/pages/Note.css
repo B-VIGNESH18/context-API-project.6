@@ -1,0 +1,118 @@
+.note-child {
+  position: absolute;
+  top: 56px;
+  left: 378px;
+  border-radius: var(--br-base);
+  background-color: rgba(245, 245, 245, 0.8);
+  box-shadow: 2px 4px 16px rgba(32, 53, 98, 0.47);
+  width: 1038px;
+  height: 366px;
+}
+.note-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--secondary);
+  width: 354px;
+  height: 1024px;
+}
+.note-inner {
+  position: absolute;
+  top: 40px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.notes-app {
+  position: absolute;
+  top: 65px;
+  left: 69px;
+  line-height: 33.6px;
+  font-weight: 600;
+}
+.instance-wrapper {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div {
+  position: absolute;
+  top: 162px;
+  left: 0;
+  width: 354px;
+  height: 52px;
+}
+.title {
+  position: absolute;
+  top: 67px;
+  left: 4px;
+  line-height: 44.8px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.frame-child {
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 36px;
+}
+.take-a-note {
+  position: relative;
+  line-height: 33.6px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.line-parent {
+  position: absolute;
+  top: 150px;
+  left: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+  opacity: 0.7;
+  font-size: var(--h2-size);
+}
+.add-a-note {
+  position: relative;
+  line-height: 44.8px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.add-a-note-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title-parent {
+  position: absolute;
+  top: 102px;
+  left: 420px;
+  width: 185px;
+  height: 185px;
+  font-size: var(--h1-size);
+}
+.note {
+  position: relative;
+  background-color: var(--primary);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 40px;
+  color: var(--accent);
+  font-family: var(--h1);
+}

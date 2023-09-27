@@ -1,0 +1,32 @@
+.iconshome {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.home {
+  position: relative;
+  line-height: 33.6px;
+  font-weight: 500;
+}
+.iconshome-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.property-1default1 {
+  border-radius: var(--br-5xs);
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--accent);
+  font-family: var(--h1);
+}
